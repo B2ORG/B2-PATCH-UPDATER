@@ -1,6 +1,7 @@
 import config as cfg
 import os, zlib, requests, re, copy
 from typing import Self
+from util import prompt
 from PatchUpdaterApp import PatchUpdaterApp
 from PatchUpdaterDownloader import PatchUpdaterDownloader
 from PatchUpdaterResponseDTO import PatchUpdaterResponseDTO
@@ -126,6 +127,8 @@ class PatchUpdaterRunner:
                 ).strip().replace("  ", " ")
             )
 
+            if self._app.get_config("confirm_update") and not prompt(f"Update '{file_to_replace}'?"):
+                continue
             os.replace(temp, new_file)
             if new_file != file_to_replace:
                 os.remove(file_to_replace)

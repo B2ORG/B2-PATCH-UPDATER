@@ -15,7 +15,8 @@ CONFIG_DEFAULTS = {
         "%localappdata%\\Plutonium\\storage\\t4\\raw\\scripts\\sp",
         "%localappdata%\\Plutonium\\storage\\t6\\scripts\\zm",
         "%localappdata%\\Plutonium\\storage\\t6\\raw\\scripts\\zm",
-    ]
+    ],
+    "confirm_update": False,
 }
 PATH_UPGRADES = {
     ".*(\\\\storage\\\\t4\\\\scripts\\\\sp)": "\\storage\\t4\\raw\\scripts\\sp",
