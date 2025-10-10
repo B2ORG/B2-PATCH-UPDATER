@@ -1,0 +1,93 @@
+{
+ "version": "auto-py-to-exe-configuration_v1",
+ "pyinstallerOptions": [
+  {
+   "optionDest": "noconfirm",
+   "value": true
+  },
+  {
+   "optionDest": "filenames",
+   "value": "C:/Users/Zi0/GitHub/B2-PATCH-UPDATER/main.py"
+  },
+  {
+   "optionDest": "onefile",
+   "value": true
+  },
+  {
+   "optionDest": "console",
+   "value": true
+  },
+  {
+   "optionDest": "icon_file",
+   "value": "C:/Users/Zi0/GitHub/B2-PATCH-UPDATER/b2_auto_updater.ico"
+  },
+  {
+   "optionDest": "name",
+   "value": "B2-patch-updater"
+  },
+  {
+   "optionDest": "clean_build",
+   "value": false
+  },
+  {
+   "optionDest": "strip",
+   "value": false
+  },
+  {
+   "optionDest": "noupx",
+   "value": false
+  },
+  {
+   "optionDest": "disable_windowed_traceback",
+   "value": false
+  },
+  {
+   "optionDest": "uac_admin",
+   "value": false
+  },
+  {
+   "optionDest": "uac_uiaccess",
+   "value": false
+  },
+  {
+   "optionDest": "argv_emulation",
+   "value": false
+  },
+  {
+   "optionDest": "bootloader_ignore_signals",
+   "value": false
+  },
+  {
+   "optionDest": "datas",
+   "value": "C:/Users/Zi0/GitHub/B2-PATCH-UPDATER/config.py;."
+  },
+  {
+   "optionDest": "datas",
+   "value": "C:/Users/Zi0/GitHub/B2-PATCH-UPDATER/PatchUpdaterApp.py;."
+  },
+  {
+   "optionDest": "datas",
+   "value": "C:/Users/Zi0/GitHub/B2-PATCH-UPDATER/PatchUpdaterConfig.py;."
+  },
+  {
+   "optionDest": "datas",
+   "value": "C:/Users/Zi0/GitHub/B2-PATCH-UPDATER/PatchUpdaterDownloader.py;."
+  },
+  {
+   "optionDest": "datas",
+   "value": "C:/Users/Zi0/GitHub/B2-PATCH-UPDATER/PatchUpdaterResponseDTO.py;."
+  },
+  {
+   "optionDest": "datas",
+   "value": "C:/Users/Zi0/GitHub/B2-PATCH-UPDATER/PatchUpdaterRunner.py;."
+  },
+  {
+   "optionDest": "datas",
+   "value": "C:/Users/Zi0/GitHub/B2-PATCH-UPDATER/util.py;."
+  }
+ ],
+ "nonPyinstallerOptions": {
+  "increaseRecursionLimit": true,
+  "manualArguments": ""
+ }
+}

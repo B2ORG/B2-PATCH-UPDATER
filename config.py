@@ -1,4 +1,4 @@
-VERSION = "1.0"
+VERSION = "0.9"
 USER_AGENT = "B2-PATCH-UPDATER/" + VERSION
 APPDATA = r"%localappdata%\B2PatchUpdater"
 CONFIG = "b2_patch_updater.json"

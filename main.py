@@ -1,9 +1,11 @@
 import asyncio, sys
+import config as cfg
 from PatchUpdaterApp import PatchUpdaterApp
 from PatchUpdaterRunner import PatchUpdaterRunner
 
 
 async def main():
+    print(f"B2-PATCH-UPDATER v{cfg.VERSION}{f" BETA" if cfg.VERSION.startswith("0") else ""}")
     args = sys.argv[1:] if len(sys.argv) > 1 else []
     app = (PatchUpdaterApp()
                     .prepare_environment()
