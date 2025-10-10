@@ -113,6 +113,19 @@ class PatchUpdaterRunner:
                     new_file = new_file.replace(search.group(1), replace_target)
                     break
 
+            new_file = os.path.join(
+                os.path.dirname(new_file),
+                re.sub(
+                    r"[\s]", 
+                    " ", 
+                    re.sub(
+                        r"[^\w\s-]", 
+                        "_", 
+                        f"{self._awaiting_updates[hash].new_file.get("name")} {self._awaiting_updates[hash].new_file.get("version")}"
+                    ) + os.path.splitext(new_file)[1]
+                ).strip().replace("  ", " ")
+            )
+
             os.replace(temp, new_file)
             if new_file != file_to_replace:
                 os.remove(file_to_replace)
