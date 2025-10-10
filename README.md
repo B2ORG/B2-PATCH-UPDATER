@@ -68,8 +68,8 @@ At the moment following community patches are supported. This list may not alway
 
 | Patch/Plugin | Game | Author | Note |
 | :---: | :---: | :---: | :--- |
-| WaW-Community-Patch | T4 | Evelyn | Currently only versions 1.4+ |
-| CT5 | T5 | Evelyn | T5 Competitive plugin, it's not strictly a patch |
+| WaW-Community-Patch | T4 | Evelyn | First Room versions are correctly updated to the main one |
+| CT5 | T5 | Evelyn | T5 Competitive plugin, Currently only versions 1.4+ |
 | B2OP | T6 | Zi0 | Only Plutonium versions 2.0+ |
 | B2FR | T6 | Zi0 | B2FR HUD and NOHUD version are independent, meaning HUD version will update to newer HUD version and NO HUD version will update to newer NO HUD version |
 
