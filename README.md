@@ -18,7 +18,7 @@ It scans Plutonium script/plugin folders, then compares the signatures against k
 > [!NOTE]
 > Actual files from your hard drive are never uploaded anywhere, only their checksums
 
-> [WARNING]
+> [!WARNING]
 > This script is NOT compatibile with Plutonium R2905 (or any Plutonium version from before recent refactor). We prioritize new versions and it automatically upgrades your patch location to the currently recommended path, that was not supported back then.
 
 ## Config
@@ -42,7 +42,7 @@ Scan folders can be adjusted, since config file is a json file, the backslashes 
 C:\\Users\\B2ORG\\AppData\\Local\\Plutonium\\storage\\t6\\raw\\scripts\\zm
 ```
 
-> [WARNING]
+> [!WARNING]
 > The scan is NON-RECURSIVE, it means it'll only scan files in a specified directory, and won't by itself check files that are in subdirectories of specified path. This is a subject to change if we were to ever support patches that use multiple file structure, however it's not currently on a roadmap.
 
 ### I messed up my config and the program no longer works
@@ -59,7 +59,7 @@ B2-patch-updater.exe --config
 
 and press enter. The program will now generate the config and terminate.
 
-> [WARNING]
+> [!WARNING]
 > If you changed the name of the executable (or it's different for any other reason), you'll need to replace the executable name from above to one matching name on your system.
 
 ## Currently supported patches
@@ -99,5 +99,5 @@ python main.py      # CMD
 python .\main.py    # PowerShell
 ```
 
-> [TIP]
+> [!TIP]
 > Create a .bat file for running the program, the .bat file can be placed in a convenient spot such as desktop
