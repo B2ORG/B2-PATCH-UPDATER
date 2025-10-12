@@ -69,9 +69,12 @@ At the moment following community patches are supported. This list may not alway
 | Patch/Plugin | Game | Author | Note |
 | :---: | :---: | :---: | :--- |
 | WaW-Community-Patch | T4 | Evelyn | First Room versions are correctly updated to the main one |
-| CT5 | T5 | Evelyn | T5 Competitive plugin, Currently only versions 1.4+ |
+| CT5 | T5 | Evelyn | Versions for Plutonium (1.1+) |
 | B2OP | T6 | Zi0 | Only Plutonium versions 2.0+ |
 | B2FR | T6 | Zi0 | B2FR HUD and NOHUD version are independent, meaning HUD version will update to newer HUD version and NO HUD version will update to newer NO HUD version |
+| B2SONG | T6 | Zi0 | Can also update the original patch last version (7.3) |
+| T6-EE-Timer | T6 | HuthTV | |
+| T6-EE-LiveSplit | T6 | HuthTV | |
 
 ## Run from source
 
