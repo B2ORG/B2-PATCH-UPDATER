@@ -1,6 +1,9 @@
 # B2-PATCH-UPDATER
 A simple standalone tool for automatically updating competitive patches and plugins
 
+> [!IMPORTANT]
+> The updater is discontinued, [Plutonium Competitive launcher](https://b2.wtf/tools/competitive-launcher) for oldstable fork handles updating competitive tools, please move over to that.
+
 ## How to use
 
 Head to the [most recent release](https://github.com/B2ORG/B2-PATCH-UPDATER/releases/latest) and download `B2-patch-updater.exe` file. You may place it in any directory on your PC.
